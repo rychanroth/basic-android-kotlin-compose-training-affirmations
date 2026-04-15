@@ -69,9 +69,8 @@ class MainActivity : ComponentActivity() {
 }
 
 
-@Preview(showBackground = true)
 @Composable
-fun AffirmationApp() {
+fun AffirmationsApp() {
     Surface(
         modifier = Modifier.fillMaxSize()
             .statusBarsPadding()
@@ -83,11 +82,6 @@ fun AffirmationApp() {
                 .statusBarsPadding()
         )
     }
-
-}
-
-@Composable
-fun AffirmationsApp() {
 
 }
 
